@@ -1,14 +1,14 @@
-= decompose_url
+# decompose_url
 
 Commandline utility to unescape and breakdown unwieldy URLs.
 
-== Install
+## Install
 
 ```bash
   $ go install github.com/rwtnorton/decompose_url
 ```
 
-== Usage
+## Usage
 
 ```bash
   $ decompose_url 'https://github.com/search?q=lacinia'
@@ -33,6 +33,6 @@ Or more than one:
       "foo" => ["bar" "quux"]
 ```
 
-== Author
+## Author
 
 Richard W. Norton (rwtnorton@gmail.com)
